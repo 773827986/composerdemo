@@ -1,0 +1,22 @@
+{
+    "name": "yzcslt.com/composerdemo",
+    "description": "demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "车志豪",
+            "email": "773827986@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion"
+        }
+    }
+}
